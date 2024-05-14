@@ -385,6 +385,13 @@ Publish the website in the LocalHost.
 ## OUTPUT:
 ![boot 1](https://github.com/ibrahimfedahs/Pharma/assets/150319493/503a6484-6822-4c57-8c21-f1fc53c44795)
 
+![boot 2](https://github.com/ibrahimfedahs/Pharma/assets/150319493/113313d6-48c7-4611-a23d-7c61b7671364)
+
+![boot 3](https://github.com/ibrahimfedahs/Pharma/assets/150319493/487ed0af-120e-4070-9e65-4a24335dbe93)
+
+![boot 4](https://github.com/ibrahimfedahs/Pharma/assets/150319493/f6e7d0e4-016f-4821-95b8-fa84dd4a52d1)
+
+
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
