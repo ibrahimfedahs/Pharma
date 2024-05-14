@@ -383,13 +383,8 @@ Publish the website in the LocalHost.
 </html>
 ```
 ## OUTPUT:
-![alt text](<boot 1.jpg>)
+![boot 1](https://github.com/ibrahimfedahs/Pharma/assets/150319493/503a6484-6822-4c57-8c21-f1fc53c44795)
 
-![alt text](<boot 2.jpg>)
-
-![alt text](<boot 3.jpg>)
-
-![alt text](<boot 4-1.jpg>)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
