@@ -30,6 +30,6 @@ Publish the website in the LocalHost.
 
 ## OUTPUT:
 
-
+![alt text](<naveen/pharmaapp/static/Screenshot (153).png>)
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
