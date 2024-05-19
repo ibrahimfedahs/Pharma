@@ -1,5 +1,5 @@
 # Project Responsive Web Design using Bootstrap
-## Date:13/05/24
+## Date: 19-05-2024
 
 ## AIM:
 To design a responsive website for a Pharmaceutical Company using Bootstrap.
@@ -25,374 +25,353 @@ Create a HTML file and include the needed Bootstrap components.
 ### Step 6:
 Publish the website in the LocalHost.
 
+
+
 ## PROGRAM :
-```
+
+pharma.html
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About PharmaCompany</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" 
+          href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+
+    </script>
+    <style>
+      .container{
+        margin-top: 70px;
+      }
+      #ma{
+        margin-left: 60px;
+      }
+      .pa{
+        margin-top: 290px;
+      }
+    
+    </style>
 </head>
-<body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">PharmaCompany</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<body bgcolor="whitesmoke">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    Ibrahim Pharmatical</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="pharma.html">Home</a>
+                </li>
+                <li>
+                    <a href="people.html">People</a>
+                </li>
+                <li>
+                    <a href="product.html">Product</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+                <li>
+                  <a class="btn btn-primary" id="l">Sign Up</a>
+                </li>
+                <li>
+                  <a id="s">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" align="middle">
+      <h1 style="color:rgb(225, 116, 28)" id="ma">Ibrahim Pharmatical</h1>
+      <div class="card" style="width:200px">
+          <img class="card-img-top" src=
+"pharma(1).jpeg"
+              alt="" style="width:300px;" height="300px;">
+          <div class="card-body">
+              <h4 class="card-title">Our Customer</h4>
+              <p class="card-text">
+                  Stay Healthy And with Lovely Life
+              </p>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="web.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="product.html">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
 
-  <!-- Page Content -->
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>About PharmaCompany</h1>
-        <div id="vision">
-          <h2>Vision</h2>
-          <p>Our vision is to be a leading pharmaceutical company in India and to become a significant global player by providing high quality, affordable and innovative solutions in medicine and treatment.</p>
-        </div>
-        <div id="mission">
-          <h2>Mission</h2>
-          <p>Our mission is to We will discover, develop and successfully market pharmaceutical products to prevent, diagnose, alleviate and cure diseases.</p>
-        </div>
-        <div id="values">
-          <h2>Values</h2>
-          <ul>
-            <li>Quality:From the very beginning, Quality has been the core of our existence. Unimarckens are persistently putting efforts in manufacturing high-quality products for society.</li>
-            
-            <li>Commitment to Excellence:We believe commitment drives the force for achieving excellence for products to stand at par in the pharmaceutical industry. We pursue </li>
-            <li>Customer-oriented: Being a customer-oriented pharma company, the prospect is to digitalize the business by serving quality pharma products online.</li>
-            <li>Teamwork: “Teamwork makes the dream work.”</li>
-          </ul>
-        </div>
-        <br>
-        <!-- Add more subheadings as needed -->
+              <a href="#" class="btn btn-primary">
+                  See Profile
+              </a>
+          </div>
       </div>
-    </div>
   </div>
-  <body background="pharmacy(1).jpg" style="background-repeat: no-repeat; background-size: cover;"></body>
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-4 mt-3">
-    <p>&copy; 2024 PharmaCompany. All rights reserved.  BY IBRAHIM FEDAH S</p>
-  </footer>
-
-  <!-- Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+<div bgcolor="aquamarine">
+<footer class="pa" align="middle">
+  Ibrahim Fedah@(212223240056)
+</footer>
+</div>
 </html>
-```
-```
+
+people.html
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - PharmaCompany</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" 
+          href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+
+    </script>
 </head>
-<body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">PharmaCompany</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<body background="vecteezy_abstract-simple-wave-blue-vector-background_11020190.jpg">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    Ibrahim Pharmatical</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="pharma.html">Home</a>
+                </li>
+                <li>
+                    <a href="people.html">People</a>
+                </li>
+                <li>
+                    <a href="product.html">Product</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <section class="testimonial">
+        <div class="container">
+            <div class="testi_slider owl-carousel owl-theme">
+                <div class="item">
+                    <div class="testi_item">
+                        <div class="testimonial_image">
+                            <img src="images.jpeg" alt="" height="200px" width="280px">
+                        </div>
+                        <div class="testi_item_content">
+                            <h4>- Dr.Adam Gilchrist -</h4>       
+                            <img src="pharmat.jpeg" alt="">
+                        <div class="testi_item_content">
+                            <h4>- Dr. Suzanne Holroyd -</h4>         
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+  
+    
+</body>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="web.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="product.html">Products</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact <span class="sr-only">(current)</span></a>
-        </li>
-      </ul>
+product.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" 
+          href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+
+    </script>
+    <style>
+        .pa{
+        margin-top: 540px;
+      }
+    </style>
+</head>
+
+<body background="vecteezy_abstract-simple-wave-blue-vector-background_11020190.jpg">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    Ibrahim Pharmatical</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="pharma.html">Home</a>
+                </li>
+                <li>
+                    <a href="people.html">People</a>
+                </li>
+                <li>
+                    <a href="product.html">Product</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        <div class="container" style="color:rgb(129, 24, 221)">
+            <h1>Ibrahim Pharmatical</h1>
+        </div>
+        <div class="container">
+            <h4>Type of pharmaticals</h4>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="dropdown">
+                        <button class="btn btn-warning dropdown-toggle"
+                            type="button" data-toggle="dropdown">
+                            Subash Pharmaticals
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header container">
+                                <b>Biological</b>
+                            </li>
+                            <li><a href="#">Bacteria</a></li>
+                            <li><a href="#">Animal Cell</a></li>
+                            <li><a href="#">Plant Cell</a></li>
+                            <li class="divider"></li>
+                            <li class="dropdown-header container">
+                                <b>Chemical</b>
+                            </li>
+                            <li><a href="#">Acetone</a></li>
+                            <li><a href="#">Hydro</a></li>
+                            <li><a href="#">Chlorine</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
+    <br>
+    <br>
+    <div>
+        <p align="middle"><b><i><h3>A pharmaceutical is any kind of drug used for medicinal purposes, like cough syrup or sleeping pills.<br>
+            You may have heard of a pharmacy, which is a place where you can buy medicinal drugs, or a pharmacist,<br>
+            which is a person who prepares those drugs.</h3></i></b></p>
+    </div>
+    <div bgcolor="aqua">
+        <footer class="pa" align="middle">
+            Ibrahim Fedah@(212223240056)
+        </footer>
+        </div>
+</body>
 
-  <!-- Page Content -->
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-8">
-        <h1>Contact Us</h1>
-        <p>For any inquiries or feedback, please fill out the form below and we will get back to you as soon as possible.</p>
+contact.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" 
+          href=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+
+    </script>
+    <script src=
+"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+
+    </script>
+</head>
+
+<body background="vecteezy_abstract-simple-wave-blue-vector-background_11020190.jpg">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">
+                    Ibrahim Pharmatical</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active">
+                    <a href="pharma.html">Home</a>
+                </li>
+                <li>
+                    <a href="people.html">People</a>
+                </li>
+                <li>
+                    <a href="product.html">Product</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div>
         <form>
-          <div class="form-group">
-            <label for="name">Your Name</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter your name">
-          </div>
-          <div class="form-group">
-            <label for="email">Your Email</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter your email">
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea class="form-control" id="message" rows=3" placeholder="Enter your message"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-      </div>
-      <div class="col-md-4">
-        <h2>PharmaCompany</h2>
-        <address>
-          <strong>Address:</strong><br>
-          RAMA THULASAMMA,MADANAPALLE<br>
-          India, 517325<br><br>
-          <strong>Email:</strong><br>
-          ibrahimfedah17@gmail.com<br><br>
-          <strong>Phone:</strong><br>
-          +91 8122104690
-        </address>
-      </div>
+            <span class="border">
+            <div class="form-group" align="center">
+                <br>
+                <br>
+              <label for="exampleFormControlInput1"><b>Email address:</b></label><br>
+              ibrahimpharmaticals197@gmail.com
+            </div>
+            <br>
+            <br>
+            <div class="form-group" align="center">
+              <label for="exampleFormControlTextarea1"><b>Contact Number:</b></label><br>
+              91+ 9456378597<br>
+              +91 8679234879
+            </div>
+            <br>
+            <br>
+            <div class="form-group" align="center">
+                <label for="exampleFormControlTextarea1"><b>Address:</b></label><br>
+              Rajaji Street ,<br>Thiruvallur Nagar,<br>Chennai-635109<br>
+              </div>
+            </span>
+          </form>
     </div>
-  </div>
- 
-  <body background="paramcy(3).jpg" style="background-repeat: no-repeat; background-size: cover;">
-
-    <br>
-    <br>
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-4 mt-2 ">
-    <p>&copy; 2024 PharmaCompany. All rights reserved.BY IBRAHIM FEDAH S</p>
-
-  </footer>
-
-  <!-- Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-</html>
-```
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Products - PharmaCompany</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
-
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">PharmaCompany</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="web.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Products
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#">Over-the-counter (OTC) Medications</a>
-            <a class="dropdown-item" href="#">Prescription Drugs</a>
-            <a class="dropdown-item" href="#">Vaccines</a>
-            <a class="dropdown-item" href="#">Supplements</a>
-          </div>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Register</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Page Content -->
-  <div class="container mt-3">
-    <div class="row">
-      <div class="col-md-12">
-        <h1>Our Product categories</h1>
-        <div class="card-deck">
-          <div class="card">
-            <img src="capsule.jpeg" class="card-img-top" alt="Product 1" width="200" height="200">
-            <div class="card-body">
-              <h5 class="card-title">Over-the-counter (OTC)</h5>
-              <p class="card-text">These drugs you can buy without a prescription. Some OTC medicines relieve aches, pains, and itches.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
-            </div>
-          </div>
-          <div class="card">
-            <img src="images.jpeg" class="card-img-top" alt="Product 2" width="200" height="200">
-            <div class="card-body">
-              <h5 class="card-title"> prescription drug</h5>
-              <p class="card-text">a pharmaceutical drug that is permitted to be dispensed only to those with a medical prescription.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
-            </div>
-          </div>
-          <div class="card">
-            <img src="vaccine.jpeg" class="card-img-top" alt="Product 2" width="200" height="200">
-            <div class="card-body">
-              <h5 class="card-title">Vaccine</h5>
-              <p class="card-text">A vaccine is a biological preparation that provides active acquired immunity to a particular infectious or malignant disease.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
-            </div>
-          </div>
-          <div class="card">
-            <img src="supplements.jpeg" class="card-img-top" alt="Product 3" width="200" height="200">
-            <div class="card-body">
-              <h5 class="card-title">Supplements</h5>
-              <p class="card-text">These include vitamins, minerals, herbs and botanicals, probiotics, and more.</p>
-              <a href="#" class="btn btn-primary">Buy Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-4 mt-5">
-    <p>&copy; 2024 PharmaCompany. All rights reserved. IBRAHIM FEDAH S</p>
-  </footer>
-  <body background="pharmacy(1).jpg" style="background-repeat: no-repeat; background-size: cover;">
 
 
-  <!-- Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
-```
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home - PharmaCompany</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-</head>
-<body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#">PharmaCompany</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="web.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="product.html">Products</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Register</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-
-  <!-- Page Content -->
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-8">
-        <h1>Welcome to PharmaCompany</h1>
-        <p>Welcome to PharmaCompany,our mission is to provide safe, effective, and accessible healthcare solutions to patients worldwide.</p>
-        <p>At PharmaCompany, With a relentless focus on innovation and quality, we are at the forefront of cutting-edge medical advancements, ensuring that every product we create is a testament to our unwavering commitment to excellence..</p>
-        <p>In addition to medications,Pharmacompany are pivotal in creating and distributing drugs, vaccines, and medical devices to enhance human health. </p>
-        <p>Thank you for choosing PharmaCompany for your healthcare needs. We look forward to serving you and helping you live a healthier life.</p>
-      </div>
-      <div class="col-md-4">
-        <img src="parmacy(6).jpg" class="img-fluid" alt="Pharmacy Image">
-      </div>
-    </div>
-  </div>
-  <body background="parmac.jpg" style="background-repeat: no-repeat; background-size: cover;">
-  <br>
-  <br>
-  <br>
-  <br>
-
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-4 mt-5">
-    <p>&copy; 2024 PharmaCompany. All rights reserved. BY IBRAHIM FEDAH s</p>
-  </footer>
-
-  <!-- Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
-</html>
-```
 ## OUTPUT:
-![boot 1](https://github.com/ibrahimfedahs/Pharma/assets/150319493/503a6484-6822-4c57-8c21-f1fc53c44795)
-
-![boot 2](https://github.com/ibrahimfedahs/Pharma/assets/150319493/113313d6-48c7-4611-a23d-7c61b7671364)
-
-![boot 3](https://github.com/ibrahimfedahs/Pharma/assets/150319493/487ed0af-120e-4070-9e65-4a24335dbe93)
-
-![boot 4](https://github.com/ibrahimfedahs/Pharma/assets/150319493/f6e7d0e4-016f-4821-95b8-fa84dd4a52d1)
+![image](https://github.com/ibrahimfedahs/Pharma/assets/150319493/dcdbc8cd-f027-469d-9a06-d7d2038cd5d6)
+![image](https://github.com/ibrahimfedahs/Pharma/assets/150319493/49486eba-d1ba-4c79-811b-8702e5b7b4ee)
+![image](https://github.com/ibrahimfedahs/Pharma/assets/150319493/5cff09e3-3e62-47ff-be9b-836ad477d739)
+![image](https://github.com/ibrahimfedahs/Pharma/assets/150319493/a50bd833-a1a9-492b-b883-5def5c6e12b1)
 
 
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
-
