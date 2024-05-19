@@ -28,7 +28,7 @@ Publish the website in the LocalHost.
 
 
 ## PROGRAM :
-
+```
 pharma.html
 <!DOCTYPE html>
 <html lang="en">
@@ -118,7 +118,8 @@ pharma.html
 </footer>
 </div>
 </html>
-
+```
+```
 people.html
 
 <!DOCTYPE html>
@@ -188,7 +189,8 @@ people.html
   
     
 </body>
-
+```
+```
 product.html
 
 <!DOCTYPE html>
@@ -289,7 +291,8 @@ product.html
         </footer>
         </div>
 </body>
-
+```
+```
 contact.html
 
 <!DOCTYPE html>
@@ -363,7 +366,7 @@ contact.html
     </div>
 </body>
 
-
+```
 
 ## OUTPUT:
 ![image](https://github.com/ibrahimfedahs/Pharma/assets/150319493/dcdbc8cd-f027-469d-9a06-d7d2038cd5d6)
